@@ -16,7 +16,7 @@ jika ada yang mau ditanyakan bisa hub no WA 081289628648
 
 # Screenshot
 
-![Example Image](https://raw.github.com/thanhniencung/LuckyWheel/master/device-2016-11-05-214303.png)
+![Example Image](https://raw.github.com/shenda94/TemanKocok/master/login_or_register.jpg)
 
 
 #Sample
