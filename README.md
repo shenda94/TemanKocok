@@ -6,72 +6,18 @@ untuk aplikasinya bisa download aja dilink dibawah ini https://drive.google.com/
 
 jika ada yang mau ditanyakan bisa hub no WA 081289628648
 
+#Fitur Aplikasi
+
+1. Join Group Arisan dengan Scan QR Code
+2. Kirim Pesan Pengingat untuk pembayaran iuran ke tiap2 anggota yang tertera di jadwal iuran.
+3. Mengundi/Mengocok hanya shake hp dan otomatis maka keluar hasil pemenang beserta total uang yang didapat.
+4. Dapat monitoring anggota arisan, pembayaran iuran, anggota yang sudah dapat atau pun belum.
+
+
 # Screenshot
 
 ![Example Image](https://raw.github.com/thanhniencung/LuckyWheel/master/device-2016-11-05-214303.png)
 
-# Usage
-
-Include LuckyWheel widget in your layout:
-
-```xml
-<rubikstudio.library.LuckyWheelView
-    android:layout_centerInParent="true"
-    app:lkwBackgroundColor="#FF9800"
-    app:lkwTextColor="#263238"
-    app:lkwCenterImage="@drawable/wheel2"
-    app:lkwCursor="@drawable/ic_cursor"
-    android:id="@+id/luckyWheel"
-    android:layout_width="300dp"
-    android:layout_height="300dp" />
-```
-
-And in your code :
-
-```java
-LuckyWheelView luckyWheelView = (LuckyWheelView) findViewById(R.id.luckyWheel);
-List<LuckyItem> data = new ArrayList<>();
-for (int i=0; i<12; i++) {
-    LuckyItem luckyItem = new LuckyItem();
-    luckyItem1.text = "Item " + i;
-    luckyItem1.icon = R.drawable.test;
-    luckyItem1.color = 0xffFFF3E0;
-    data.add(luckyItem);
-}
-
-luckyWheelView.setData(data);
-luckyWheelView.setRound(10);
-
-// start
-luckyWheelView.startLuckyWheelWithTargetIndex(index);
-
-// listener after finish lucky wheel
-luckyWheelView.setLuckyRoundItemSelectedListener(new LuckyWheelView.LuckyRoundItemSelectedListener() {
-    @Override
-    public void LuckyRoundItemSelected(int index) {
-        // do something with index
-    }
-});
-```
-
-
-#Custom LuckyWheel
-
-You can setting these properties of the lucky wheel view with xml :
-```xml
-    app:lkwBackgroundColor="#FF9800"
-    app:lkwTextColor="#263238"
-    app:lkwCenterImage="@drawable/wheel2"
-    app:lkwCursor="@drawable/ic_cursor"
-```
-
-Or with code like:
-```java
-    luckyWheelView.setLuckyWheelBackgrouldColor(0xff0000ff);
-    luckyWheelView.setLuckyWheelTextColor(0xffcc0000);
-    luckyWheelView.setLuckyWheelCenterImage(getResources().getDrawable(R.drawable.icon));
-    luckyWheelView.setLuckyWheelCursorImage(R.drawable.ic_cursor);
-```
 
 #Sample
 Check out the [sample application] => https://drive.google.com/file/d/1vtY1Qj7FDeMb_-KrtR7Gg8AvrDmIhADp
