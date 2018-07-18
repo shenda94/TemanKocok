@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "255773975763",
+    "firebase_url": "https://lokerchat.firebaseio.com",
+    "project_id": "lokerchat",
+    "storage_bucket": "lokerchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255773975763:android:c54f0e7bbbe7219d",
+        "android_client_info": {
+          "package_name": "com.merna.luckywheel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255773975763-5q03jcc1as2qldtah00vo68s5jjkr3qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0t3hITeuww6D_z28-sifcMJeUV3shY54"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255773975763:android:69b723cd73275ebf",
+        "android_client_info": {
+          "package_name": "com.merna.temankocok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255773975763-5q03jcc1as2qldtah00vo68s5jjkr3qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0t3hITeuww6D_z28-sifcMJeUV3shY54"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

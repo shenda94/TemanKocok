@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:padding="20dp">
+
+    <Button
+        android:layout_below="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Edit Pembayaran"
+        android:id="@+id/btn_dialog1"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@drawable/rounded1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:layout_below="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Approve Pembayaran"
+        android:id="@+id/btn_dialog2"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@drawable/rounded1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:layout_below="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Keluar"
+        android:id="@+id/btn_dialog"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@drawable/rounded1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff" />
+
+</LinearLayout>

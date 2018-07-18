@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.merna.temankocok.Main2Activity">
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="@string/action_logout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_infoapp"
+        android:orderInCategory="100"
+        android:title="Tentang Aplikasi"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_infouser"
+        android:orderInCategory="100"
+        android:title="User Information"
+        app:showAsAction="never" />
+</menu>

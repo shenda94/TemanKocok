@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/induk_register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <customfonts.MyEditText
+            android:textSize="16dp"
+            android:id="@+id/txtfullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Lengkap"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:layout_marginLeft="22dp"
+            android:inputType="text"
+            android:background="#0000"
+            android:padding="16dp"
+            android:layout_marginRight="30dp"
+            android:theme="@style/EditTextTheme"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_height="1dp"
+            android:background="#ADCCE2" />
+
+
+        <customfonts.MyEditText
+            android:id="@+id/txtnohp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="30dp"
+            android:background="#0000"
+            android:hint="No HP"
+            android:maxLength="12"
+            android:padding="16dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:inputType="number"
+            android:textSize="16dp"
+            android:theme="@style/EditTextTheme"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_height="1dp"
+            android:background="#ADCCE2" />
+
+
+        <customfonts.MyEditText
+            android:textSize="16dp"
+            android:id="@+id/txtnik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat Rumah"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:layout_marginLeft="22dp"
+            android:background="#0000"
+            android:padding="16dp"
+            android:maxLength="16"
+            android:layout_marginRight="30dp"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:minLines="3"
+            android:theme="@style/EditTextTheme"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="#ADCCE2"/>
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="28dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/rounded"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="CREATE"
+            android:textColor="#fff"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

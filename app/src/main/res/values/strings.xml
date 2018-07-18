@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Teman Kocok</string>
+    <string name="action_logout">Keluar</string>
+    <string name="title_activity_halaman_utama">HalamanUtamaActivity</string>
+    <string name="token">Token : %s</string>
+    <string-array name="cmbjenistr" translatable="false">
+        <item>Tunai</item>
+        <item>Transfer</item>
+    </string-array>
+</resources>

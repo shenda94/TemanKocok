@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.merna.temankocok">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_shake"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:replace="android:icon">
+        <activity
+            android:name=".MainActivity"
+            android:label="Kocok Arisan"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Main2Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".TentangActivity"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Main3Activity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListAnggota"
+            android:theme="@style/MyMaterialTheme.Base" />
+        <activity
+            android:name=".PemenangAct"
+            android:label="Pemenang"
+            android:theme="@style/MyMaterialTheme.Base" />
+        <activity
+            android:name=".HalamanUtamaActivity"
+            android:label="@string/title_activity_halaman_utama"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register"
+            android:theme="@style/MyMaterialTheme.Base" />
+        <activity android:name=".DaftarActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KodePatternActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BuatGroupActivity"
+            android:label="Group Arisan"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".ListGroupActivity"
+            android:label="Group Arisan"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".TambahGroupActivity"
+            android:label="Tambah Group"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".QrCodeActivity"
+            android:label="QR CODE"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".ScanQRActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DafGroupActivity"
+            android:label="Pilih Group"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".ResetActivity"
+            android:label="Reset Arisan"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".KocokanNamaActivity"
+            android:label="Daftar Nama"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".TambahNamaKocokActivity"
+            android:label="Tambah Nama Kocokan"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".PeriodeActivity"
+            android:label="Periode Kocokan"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".TambahPeriodeActivity"
+            android:label="Tambah Periode"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".PilihPeriodeActivity"
+            android:label="Pilih Periode"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".PembayaranActivity"
+            android:label="Pembayaran Arisan"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".UtamaBayarActivity"
+            android:label="Pembayaran Iuran"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".JadwaliuranActivity"
+            android:label="Jadwal Pembayaran Iuran"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".PembayaranIuranActivity"
+            android:label="Add Bayar Iuran"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".PilihKocokanActivity"
+            android:label="Pilih Nama Pemain"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".LoginuserActivity"
+            android:theme="@style/AppTheme" />
+
+        <!-- [START fcm_default_icon] -->
+        <!--
+             Set custom default icon. This is used when no icon is set for incoming notification messages.
+             See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_info7" />
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <!-- [END fcm_default_icon] -->
+
+
+        <!-- [START firebase_service] -->
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- [END firebase_service] -->
+        <!-- [START firebase_iid_service] -->
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- [END firebase_iid_service] -->
+
+        <activity android:name=".TentangAplikasiActivity"
+            android:label="Tentang Aplikasi"
+            android:theme="@style/AppTheme2"></activity>
+    </application>
+
+</manifest>
