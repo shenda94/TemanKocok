@@ -17,6 +17,12 @@ jika ada yang mau ditanyakan bisa hub no WA 081289628648
 # Screenshot
 
 ![Example Image](https://raw.github.com/shenda94/TemanKocok/master/login_or_register.jpg)
+(https://raw.github.com/shenda94/TemanKocok/master/Join Group Berhasil.jpeg)
+(https://raw.github.com/shenda94/TemanKocok/master/Lihat qr code.jpg)
+(https://raw.github.com/shenda94/TemanKocok/master/Modal Dialog Reminder dan Approve Pembayaran.jpg)
+(https://raw.github.com/shenda94/TemanKocok/master/Scan qr code.jpg)
+(https://raw.github.com/shenda94/TemanKocok/master/Reminder Iuran Arisan Berupa Notifkasi.jpeg)
+(https://raw.github.com/shenda94/TemanKocok/master/Kocok arisan.jpg)
 
 
 #Sample
