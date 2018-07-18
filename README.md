@@ -1,3 +1,11 @@
+# About Aplikasi
+
+teman kocok untuk arisan merupakan sebuah aplikasi berbasis android yang membantu untuk mengundi/mengocok anggota arisan, monitoring pembayaran, anggota, anggota yang belum dapat ataupun sudah. aplikasi teman kocok ini memiliki fitur untuk join group arisan dengan scan qr code dan selain itu dapat mengirimkan reminder pembayaran iuran kepada anggota arisan lainnya.
+
+untuk aplikasinya bisa download aja dilink dibawah ini https://drive.google.com/file/d/1vtY1Qj7FDeMb_-KrtR7Gg8AvrDmIhADp
+
+jika ada yang mau ditanyakan bisa hub no WA 081289628648
+
 # Screenshot
 
 ![Example Image](https://raw.github.com/thanhniencung/LuckyWheel/master/device-2016-11-05-214303.png)
@@ -66,7 +74,7 @@ Or with code like:
 ```
 
 #Sample
-Check out the [sample application](https://github.com/thanhniencung/LuckyWheel/blob/master/app/src/main/java/com/ryan/luckywheel/MainActivity.java) to see it in action!
+Check out the [sample application] => https://drive.google.com/file/d/1vtY1Qj7FDeMb_-KrtR7Gg8AvrDmIhADp
 
 # Contributing
 Contributions welcome via Github pull requests.
