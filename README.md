@@ -23,7 +23,7 @@ jika ada yang mau ditanyakan bisa hub no WA 081289628648
 (https://raw.github.com/shenda94/TemanKocok/master/Scan qr code.jpg)
 (https://raw.github.com/shenda94/TemanKocok/master/Reminder Iuran Arisan Berupa Notifkasi.jpeg)
 (https://raw.github.com/shenda94/TemanKocok/master/Kocok arisan.jpg)
-(https://raw.github.com/shenda94/TemanKocok/master/pemenang.jpg)
+(https://raw.github.com/shenda94/TemanKocok/master/Pemenang.jpg)
 
 
 #Sample
